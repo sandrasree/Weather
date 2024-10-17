@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="container">
+            <div class="search-container input-group">
+                <input type="text" class="form-control" placeholder="Enter a city name" id="city" value=""/>
+                <div class="input-group-append">
+                    <button class="btn btn-primary" id="search-btn">Search</button>
+                </div>
+            </div>
+            <div id="result" class="mt-4"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
